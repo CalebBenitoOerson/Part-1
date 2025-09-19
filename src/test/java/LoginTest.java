@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-public class LoginTest {
+public class LoginTest{
     @Test
     public void testUsernameCorrectlyFormatted() {
         login user = new login("Kyle", "Doe", "Kyl_1", "Ch&&s.e@ke99!", "+27836687654");
